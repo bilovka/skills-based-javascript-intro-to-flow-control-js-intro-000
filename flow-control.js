@@ -36,7 +36,7 @@ function switchAge(age) {
     case age>=13&&age<=19 : console.log ("You are a teenager") 
      return undefined
     break;
-    case age<13&&age>19 : console.log("You have an age")
+    case age<=12&&age>=20 : console.log("You have an age")
      return undefined
     break;
     default: return "You have an age"
