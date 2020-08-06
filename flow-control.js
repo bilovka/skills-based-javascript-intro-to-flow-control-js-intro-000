@@ -39,5 +39,4 @@ function switchAge(age) {
     break;
     default: return 
   }
-  return underfined
 }
