@@ -37,6 +37,7 @@ function switchAge(age) {
     break;
     case age<13&&age>19 : console.log ("You have an age")
     break;
-    default: return
+    default: return 
   }
+  return underfined
 }
